@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WHITE WHALE | SOLANA WARRIOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <nav>
+        <div class="logo-area">
+            <img src="https://pbs.twimg.com/profile_images/1997712467380621312/u0EN-arr.jpg" alt="Logo">
+            <span>WHITE WHALE</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">STORY</a>
+            <a href="#tokenomics">TOKENOMICS</a>
+            <a href="https://pump.fun" class="buy-btn-nav">BUY $WHALE</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="https://pbs.twimg.com/profile_images/1997712467380621312/u0EN-arr.jpg" class="main-logo-anim" alt="Warrior Whale">
+            <h1 class="title">THE WHITE WHALE</h1>
+            <p class="subtitle">The Ancient Warrior of the Solana Depths. No Mercy for Paper Hands.</p>
+            
+            <div class="ca-box" onclick="copyCA()">
+                <code>CA: a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump</code>
+                <span class="copy-hint">Click to Copy</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://pump.fun" class="btn-gold">PUMP.FUN</a>
+                <a href="https://dexscreener.com" class="btn-outline">CHART</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="tokenomics" class="token-section">
+        <h2 class="section-title">WARRIOR STATS</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>0%</h3>
+                <p>TAX</p>
+            </div>
+            <div class="stat-card">
+                <h3>1B</h3>
+                <p>SUPPLY</p>
+            </div>
+            <div class="stat-card">
+                <h3>BURNT</h3>
+                <p>LIQUIDITY</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://t.me/your_telegram" target="_blank" class="tg-floating">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+        <span>JOIN THE POD</span>
+    </a>
+
+    <script>
+        function copyCA() {
+            const ca = "a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump";
+            navigator.clipboard.writeText(ca);
+            alert("Contract Address Copied to Clipboard!");
+        }
+    </script>
+</body>
+</html>
